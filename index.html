@@ -1,104 +1,76 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>網頁音樂播放器介紹</title>
-    <style>
-        body {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            background-color: #cfcfcf;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: 30px auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-        }
-        .header, .section {
-            margin-bottom: 30px;
-        }
-        .header {
-            text-align: center;
-            padding-bottom: 20px;
-            border-bottom: 1px solid #ddd;
-        }
-        .header h1 {
-            margin: 0;
-            font-size: 2.5em;
-            color: #0073e6;
-        }
-        .section h2 {
-            font-size: 1.8em;
-            color: #0073e6;
-            margin-top: 0;
-        }
-        .section img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin: 20px 0;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .section p {
-            font-size: 1.1em;
-            line-height: 1.6;
-            text-align: justify;
-        }
-        @media (max-width: 768px) {
-            .section img {
-                width: 100%;
-            }
-            .header h1 {
-                font-size: 2em;
-            }
-            .section h2 {
-                font-size: 1.5em;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的作品集</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+    }
+    .project {
+      margin-bottom: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>音樂播放器</h1>
-        </div>
+  <header>
+    <h1>你好，我是 XXX</h1>
+    <p>前端工程師 | 設計愛好者 | 創作者</p>
+  </header>
 
-        <div class="section">
-            <h2>主介面</h2>
-            <img src="link_to_image1" alt="主介面">
-            <p>我們的音樂播放器設計簡潔，操作直觀，讓你輕鬆享受音樂。</p>
-        </div>
+  <section>
+    <h2>關於我</h2>
+    <p>簡單介紹自己，例如學經歷、專業技能、興趣。</p>
+  </section>
 
-        <div class="section">
-            <h2>搜尋功能</h2>
-            <img src="link_to_image2" alt="搜尋功能">
-            <p>內建強大的搜尋功能，支援 SQL 資料庫，讓你能迅速找到想聽的音樂。</p>
-        </div>
-
-        <div class="section">
-            <h2>播放列表</h2>
-            <img src="link_to_image3" alt="播放列表">
-            <p>建立並管理你的個人播放列表，隨時調整曲目順序。</p>
-        </div>
-
-        <div class="section">
-            <h2>音樂詳情</h2>
-            <img src="link_to_image4" alt="音樂詳情">
-            <p>提供詳細的音樂資訊，讓你了解每一首歌的背景和歌手資料。</p>
-        </div>
-
-        <div class="section">
-            <h2>音樂控制</h2>
-            <img src="link_to_image5" alt="音樂控制">
-            <p>便捷的音樂控制選項，讓你隨心所欲地播放、暫停、跳過或重播。</p>
-        </div>
+  <section>
+    <h2>作品集</h2>
+    <div class="project">
+      <h3>作品 1 標題</h3>
+      <p>作品簡介，並附上 <a href="#">連結</a>。</p>
     </div>
+    <div class="project">
+      <h3>作品 2 標題</h3>
+      <p>作品簡介，並附上 <a href="./music_app.html">連結</a>。</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>聯絡方式</h2>
+    <p>Email: yourmail@example.com</p>
+    <p>GitHub: <a href="https://github.com/username" target="_blank">username</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 XXX 的作品集</p>
+  </footer>
 </body>
 </html>
