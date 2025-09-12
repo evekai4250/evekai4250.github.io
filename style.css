@@ -1,0 +1,115 @@
+/* 全域設定 */
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  margin: 0;
+  background: #222227;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+/* 頁首 */
+header {
+    background: linear-gradient(135deg, #0f1e25, #415a6d, #2c5364);
+    color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+header p {
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+
+/* 導覽列 */
+nav {
+  background: #111827;
+  padding: 12px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+nav a {
+  color: #d1d5db;
+  margin: 0 18px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #60a5fa;
+}
+
+/* 主要內容 */
+main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* 區塊卡片 */
+section {
+  background: #393939;
+  margin-bottom: 30px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+}
+section h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  border-left: 5px solid #60a5fa;
+  padding-left: 10px;
+  color: #f3f4f6;
+}
+
+/* 作品集清單 */
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  margin: 12px 0;
+}
+ul li a {
+  display: block;
+  padding: 14px 18px;
+  background: #58606b;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #e5e7eb;
+  transition: all 0.3s ease;
+}
+ul li a:hover {
+  background: #2563eb;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.6);
+}
+
+/* 圖片 */
+img {
+  display: block;
+  max-width: 100%;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.7);
+}
+
+/* 頁尾 */
+footer {
+  text-align: center;
+  padding: 25px;
+  font-size: 14px;
+  color: #9ca3af;
+  background: #181b21;
+  margin-top: 40px;
+}
+footer a {
+  color: #60a5fa;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
